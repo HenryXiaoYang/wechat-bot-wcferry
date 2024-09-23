@@ -1,10 +1,10 @@
 version: "3.3"
 
 services:
-    wechat-box:
+    wechat-box-wcferry:
         image: "henryxiaoyang/wechat-box-wcferry:latest"
         restart: unless-stopped
-        container_name: "wechat-box"
+        container_name: "wechat-box-wcferry"
         environment:
             WC_AUTO_RESTART: "yes"
         ports:

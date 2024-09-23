@@ -40,7 +40,7 @@ function install() {
     done
 }
 
-wine /WeChatSetup-v3.9.10.27.exe &
+wine /WeChatSetup-3.9.10.27.exe &
 install
 
 wait

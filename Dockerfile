@@ -1,5 +1,7 @@
 FROM henryxiaoyang/wine-box:latest
 
+
+
 COPY root /
 
 # init with GUI
